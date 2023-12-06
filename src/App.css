@@ -1,0 +1,61 @@
+* {
+  font-family: "Roboto";
+  overflow-x: hidden;
+}
+
+.button {
+  width: 500px;
+  height: 48px;
+  text-align: center;
+  background-color: #2b3b48 !important;
+  border: solid 2px #4f6477 !important;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0.94px;
+}
+.btnPiyasa {
+  width: 500px;
+  height: 48px;
+  text-align: center;
+  background-color: #ffffff !important;
+  color: #2b3b48 !important;
+  font-weight: bold;
+  border: solid 2px #4f6477 !important;
+  letter-spacing: 0.94px;
+}
+
+.columns {
+  border: "1px solid black" !important;
+}
+.column {
+  margin-right: 70px !important;
+}
+.header {
+  margin-bottom: 15px;
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
+}
+.contain {
+  padding-top: 3%;
+  padding-left: 3%;
+}
+
+@media only screen and (max-width: 600px) {
+  .contain {
+    padding-left: 0%;
+  }
+  .btnPiyasa {
+    width: 330px;
+  }
+  .button {
+    width: 330px;
+  }
+}
+/* .column {
+  border: "1px solid black";
+  display: "flex";
+  flex-direction: "column";
+  justify-content: "center";
+} */
